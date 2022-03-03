@@ -41,8 +41,8 @@ canvas {
     font-weight: 800;
     font-size: 12px;
 }
-.contols__btns button:active{
-    transform: scale(0.98);
+.controls__btns button:active{
+    transform: scale(0.90);
 }
 
 .controls .controls__colors {
