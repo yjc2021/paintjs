@@ -40,6 +40,7 @@ if (canvas) {
     canvas.addEventListener("mouseleave", stopPainting);
 }
 
-
-Array.from(colors).forEach(color => 
-    color.addEventListener("click", handleColorClick))
+if (colors) {
+    Array.from(colors).forEach(color => 
+        color.addEventListener("click", handleColorClick));
+}
